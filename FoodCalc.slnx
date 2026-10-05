@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FoodCalc.Application/FoodCalc.Application.csproj" Id="8d635373-95b7-455a-91d4-5a36dc4653bf" />
+  <Project Path="FoodCalc.Domain/FoodCalc.Domain.csproj" Id="3e14b7b5-eddb-45fd-9eae-ae87db4fa395" />
+  <Project Path="FoodCalc.Infrastructure/FoodCalc.Infrastructure.csproj" Id="d002717a-800e-4353-ac9b-589f752f86a5" />
+  <Project Path="FoodCalc.WinForms/FoodCalc.WinForms.csproj" Id="e8a60c69-1bf0-48c0-96a5-8f9044b55aa1" />
+</Solution>
