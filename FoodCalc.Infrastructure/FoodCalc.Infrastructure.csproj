@@ -50,8 +50,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\ProductData.db" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
