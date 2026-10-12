@@ -84,10 +84,6 @@
       <Project>{8d635373-95b7-455a-91d4-5a36dc4653bf}</Project>
       <Name>FoodCalc.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FoodCalc.Infrastructure\FoodCalc.Infrastructure.csproj">
-      <Project>{d002717a-800e-4353-ac9b-589f752f86a5}</Project>
-      <Name>FoodCalc.Infrastructure</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

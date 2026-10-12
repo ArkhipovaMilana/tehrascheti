@@ -44,16 +44,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FoodCalc.Domain\FoodCalc.Domain.csproj">
-      <Project>{3e14b7b5-eddb-45fd-9eae-ae87db4fa395}</Project>
-      <Name>FoodCalc.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database\ProductData.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FoodCalc.Application\FoodCalc.Application.csproj">
+      <Project>{8d635373-95b7-455a-91d4-5a36dc4653bf}</Project>
+      <Name>FoodCalc.Application</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
