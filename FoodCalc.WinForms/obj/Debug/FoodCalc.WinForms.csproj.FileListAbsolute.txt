@@ -1,0 +1,17 @@
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.WinForms.exe.config
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.WinForms.exe
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.WinForms.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Application.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Infrastructure.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Domain.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Application.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Infrastructure.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\bin\Debug\FoodCalc.Domain.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.csproj.AssemblyReference.cache
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.MainForm.resources
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.Properties.Resources.resources
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.csproj.GenerateResource.cache
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.csproj.CoreCompileInputs.cache
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.3741599C.Up2Date
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.exe
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.WinForms\obj\Debug\FoodCalc.WinForms.pdb

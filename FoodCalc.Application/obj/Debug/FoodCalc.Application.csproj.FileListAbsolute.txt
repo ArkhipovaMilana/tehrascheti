@@ -1,0 +1,9 @@
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\bin\Debug\FoodCalc.Application.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\bin\Debug\FoodCalc.Application.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\bin\Debug\FoodCalc.Domain.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\bin\Debug\FoodCalc.Domain.pdb
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\obj\Debug\FoodCalc.Application.csproj.AssemblyReference.cache
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\obj\Debug\FoodCalc.Application.csproj.CoreCompileInputs.cache
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\obj\Debug\FoodCalc.A7D47D76.Up2Date
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\obj\Debug\FoodCalc.Application.dll
+D:\Programing\VSCProjects\study\tehrascheti\FoodCalc.Application\obj\Debug\FoodCalc.Application.pdb
