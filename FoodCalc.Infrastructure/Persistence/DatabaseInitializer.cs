@@ -11,18 +11,20 @@ namespace FoodCalc.Infrastructure.Persistence
 {
     internal class DatabaseInitializer
     {
-        private readonly string appData;
-        private readonly string directory;
-        private readonly string databasePath;
-
-        public DatabaseInitializer()
+        private readonly string fileName;
+        private readonly string directoryName;
+        private readonly string filePath;
+        public DatabaseInitializer(string _directoryName,string _fileName="Food.db")
         {
-            appData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            directory = Path.Combine(appData, "FoodCalc");
+            directoryName = _directoryName;
+            fileName = _fileName;
 
-            Directory.CreateDirectory(directory);
-
-            databasePath = Path.Combine(directory, "products.db");
+            filePath=Path.Combine(directoryName,fileName);
+            if (!File.Exists(filePath))
+            {
+                File.Create(filePath);
+            }
         }
+
     }
 }
