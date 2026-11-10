@@ -55,7 +55,6 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DatabaseData\ProductData.db" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
