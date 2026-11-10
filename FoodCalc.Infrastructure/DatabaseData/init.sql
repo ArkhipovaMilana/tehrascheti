@@ -1,0 +1,23 @@
+﻿CREATE TABLE "Products" (
+	"ID"	INTEGER NOT NULL UNIQUE,
+	"Name"	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY("ID" AUTOINCREMENT)
+);
+
+CREATE TABLE "ProductMicronutrients" (
+	"ProductID"	INTEGER NOT NULL,
+	"Protein"	REAL NOT NULL,
+	"Fat"	REAL NOT NULL,
+	"Carbohydrates"	REAL NOT NULL,
+	FOREIGN KEY("ProductID") REFERENCES "Products"("ID")
+);
+
+CREATE TABLE "ProductProcessing" (
+	"ID"	INTEGER NOT NULL UNIQUE,
+	"ProcessName"	TEXT NOT NULL UNIQUE,
+	"LossRate"	REAL NOT NULL,
+	"ProductID"	INTEGER NOT NULL,
+	PRIMARY KEY("ID" AUTOINCREMENT),
+	FOREIGN KEY("ProductID") REFERENCES "Products"("ID")
+);
+
