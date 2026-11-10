@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DatabaseData\init.sql" />
     <Compile Include="Persistence\DataInitializer.cs" />
     <Compile Include="Persistence\DirectoryInitializer.cs" />
     <Compile Include="Persistence\DatabaseInitializer.cs" />
@@ -54,7 +55,7 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Database\ProductData.db" />
+    <None Include="DatabaseData\ProductData.db" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
