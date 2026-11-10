@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace FoodCalc.Infrastructure.Persistence
 {
-    internal class DirectoryInitializer
+    public class DirectoryInitializer
     {
         private readonly string dataFolder;
         private readonly string folderName;
         private readonly string directory;
 
-        public DirectoryInitializer(string _dataFolder,string _folderName="FoodCalc")
+        public DirectoryInitializer(string _dataFolder, string _folderName = "FoodCalc")
         {
             dataFolder = _dataFolder;
 
             folderName = _folderName;
 
-            directory = Path.Combine(dataFolder,folderName);
+            directory = Path.Combine(dataFolder, folderName);
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
