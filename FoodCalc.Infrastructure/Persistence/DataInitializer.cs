@@ -30,18 +30,8 @@ namespace FoodCalc.Infrastructure.Persistence
             }
         }
 
-        public DataInitializer(string dbPath)
+        private void TablesInitialize()
         {
-            var builder = new SQLiteConnectionStringBuilder
-            {
-                DataSource = dbPath
-            };
-            connectionString = builder.ConnectionString;
-            if (TableExists(connectionString, "Products"))
-            {
-                Console.WriteLine("data already initialized!");
-                return;
-            }
             var assembly = Assembly.GetExecutingAssembly();
             string resourceName = $"{assembly.GetName().Name}.DatabaseData.init.sql";
 
@@ -64,7 +54,26 @@ namespace FoodCalc.Infrastructure.Persistence
                     }
                 }
             }
+        }
+        private void RecordsInitialize()
+        {
 
+        }
+
+        public DataInitializer(string dbPath)
+        {
+            var builder = new SQLiteConnectionStringBuilder
+            {
+                DataSource = dbPath
+            };
+            connectionString = builder.ConnectionString;
+            if (TableExists(connectionString, "Products"))
+            {
+                Console.WriteLine("data already initialized!");
+                return;
+            }
+            TablesInitialize();
+            RecordsInitialize();
         }
     }
 }
